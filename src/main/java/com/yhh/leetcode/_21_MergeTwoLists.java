@@ -7,6 +7,8 @@ package com.yhh.leetcode;
         输入：1->2->4, 1->3->4
         输出：1->1->2->3->4->4*/
 
+import java.util.*;
+
 /**
  * Definition for singly-linked list.
  *
@@ -45,8 +47,68 @@ public class _21_MergeTwoLists {
         }
     }
 
-    public static void main(String[] args) {
-        _21_MergeTwoLists mergeTwoLists=new _21_MergeTwoLists();
+    public static List<Integer> merge(List<Integer> l1,List<Integer> l2){
+        if (l1==null)return l2;
+        if (l2==null)return l1;
+        int i=0,j=0;
+        while (j<l2.size()){
+            if (l2.get(j)>l1.get(l1.size()-1)){
+                l1.add(l1.get(j));
+                j++;
+            }
+            if (l1.get(i)>=l2.get(j)){
+                l1.add(i,l2.get(j));
+                j++;
+            }else {
+                i++;
+            }
+        }
+        return l1;
+    }
 
+    static Random r = new Random();
+
+    static int nextInt(int bound) {
+        return r.nextInt(bound);
+    }
+
+    static List<Integer> genSortedList(int size, int bound) {
+
+        List<Integer> l = new ArrayList<>(size);
+
+        for (int i = 0; i < size; i ++) {
+            l.add(nextInt(bound));
+        }
+         Collections.sort(l);
+
+        return l;
+    }
+
+    public static void main(String[] args) {
+
+        {
+            List l1 = new ArrayList(Arrays.asList(0, 0, 0, 1, 1, 1, 2, 3, 3, 3, 4, 4, 4, 5, 5, 5, 6, 6, 7, 8));
+            List l2 = new ArrayList(Arrays.asList(0, 2, 7, 8, 9));
+            List l = merge(l1, l2);
+
+
+            System.out.println(l);
+            System.out.println(l.size());
+        }
+
+        for (int i = 0; i < 0; i ++) {
+
+            List l1 = genSortedList(20, 10);
+            List l2 = genSortedList(5, 10);
+
+            System.out.println(l1);
+            System.out.println(l2);
+
+            List l = merge(l1, l2);
+
+
+            System.out.println(l);
+            System.out.println(l.size());
+        }
     }
 }

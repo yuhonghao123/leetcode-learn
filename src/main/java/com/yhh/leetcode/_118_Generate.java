@@ -42,7 +42,7 @@ public class _118_Generate {
         List<List<Integer>> lists=generate.generate(5);
         for (int i = 0; i < lists.size(); i++) {
             for (int j = 0; j < lists.get(i).size(); j++) {
-                System.out.print(lists.get(i).get(j));
+                System.out.print(lists.get(i).get(j)+ "\t");
             }
             System.out.println();
         }
