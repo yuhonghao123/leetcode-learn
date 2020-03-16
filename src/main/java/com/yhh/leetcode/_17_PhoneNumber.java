@@ -50,7 +50,7 @@ public class _17_PhoneNumber {
     }
 
     public static void main(String[] args) {
-        String digits="23";
+        String digits="234";
         _17_PhoneNumber phoneNumber=new _17_PhoneNumber();
         List<String> num=phoneNumber.letterCombinations(digits);
         for (int i = 0; i < num.size(); i++) {
