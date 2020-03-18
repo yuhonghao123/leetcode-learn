@@ -26,3 +26,17 @@
 *1.学习两章spring boot实战
 1测试
 2Groovy与springbootCLI
+
+# 2020.03.18
+## 今天完成
+* 看了二章 spring boot 实战的书
+1测试
+2Groovy与springbootCLI
+## 碰到的问题
+暂时没有
+## 收获感想
+了解了如何在服务器测试应用程序
+了解了Groovy语言
+##明天计划
+*1.学习两章spring boot实战
+*2.做两道LeetCode的题目
