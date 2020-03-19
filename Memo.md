@@ -41,3 +41,19 @@
 ##明天计划
 *1.学习两章spring boot实战
 *2.做两道LeetCode的题目
+
+# 2020.03.19
+## 今天完成
+* 看了二章 spring boot 实战的书
+1部署springboot应用程序
+2springboot开发者工具
+3复习了springboot前两章
+4做了一道LeetCode中等难度的题目
+## 碰到的问题
+如何开启数据库迁移
+如何部署到Heroku上
+如何限定边界条件
+## 收获感想
+##明天计划
+*1.学习两章spring boot
+*2.做两道LeetCode的题目
