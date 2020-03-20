@@ -57,3 +57,14 @@
 ##明天计划
 *1.学习两章spring boot
 *2.做两道LeetCode的题目
+
+# 2020.03.20
+## 今天完成
+* 看了 spring boot的书第三章
+1全注解下的springIoc
+## 碰到的问题
+如何条件装配bean
+@Conditional的作用是什么
+## 收获感想
+##明天计划
+*1.学习第四章springAOP
