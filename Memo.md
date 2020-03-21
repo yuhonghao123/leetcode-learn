@@ -68,3 +68,13 @@
 ## 收获感想
 ##明天计划
 *1.学习第四章springAOP
+
+# 2020.03.21
+## 今天完成
+* 看了 spring boot的书第四章
+1AOP开发详解 看完一半
+## 碰到的问题
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'chapter4Application': Initialization of bean failed; nested exception is java.lang.IllegalArgumentException: error at ::0 can't find referenced pointcut Pointcut
+## 收获感想
+##明天计划
+*1.学习完第四章springAOP
