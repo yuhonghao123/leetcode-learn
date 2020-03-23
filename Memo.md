@@ -78,3 +78,14 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 ## 收获感想
 ##明天计划
 *1.学习完第四章springAOP
+
+#2020.03.21
+## 今天完成
+* 看了 spring boot的书第4章(剩下的一半)
+*第五章一半
+## 碰到的问题
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [org/springframework/boot/autoconfigure/orm/jpa/HibernateJpaConfiguration.class]: Invocation of init method failed; nested exception is javax.persistence.PersistenceException: [PersistenceUnit: default] Unable to build Hibernate SessionFactory; nested exception is org.hibernate.exception.GenericJDBCException: Unable to open JDBC Connection for DDL execution
+## 收获感想
+##明天计划
+*1.学习完第5章
+*2,。学习第6章
