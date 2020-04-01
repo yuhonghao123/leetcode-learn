@@ -89,3 +89,16 @@ org.springframework.beans.factory.BeanCreationException: Error creating bean wit
 ##明天计划
 *1.学习完第5章
 *2,。学习第6章
+
+#2020.04.01
+## 今天完成
+* 看了 spring boot的书第5章(剩下的一半)
+* 看了 spring boot的书第9章
+做了一小时leetcode题目
+## 碰到的问题
+@Transactional自调失效问题
+springMVC流程
+## 收获感想
+##明天计划
+*1.学习完第10章一半
+做一小时leetcode题目
