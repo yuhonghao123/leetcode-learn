@@ -102,3 +102,15 @@ springMVC流程
 ##明天计划
 *1.学习完第10章一半
 做一小时leetcode题目
+
+#2020.04.02
+## 今天完成
+* 看了 spring boot的书第10章一半
+做了一小时leetcode题目
+## 碰到的问题
+There was an unexpected error (type=Not Found, status=404).
+No message available
+## 收获感想
+##明天计划
+*1.学习完第10章一半
+做一小时leetcode题目
